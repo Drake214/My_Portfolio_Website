@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: rgb(51, 39, 39);
+}
+
+
+h1 {
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+h4 {
+    color: white;
+    position: relative;
+    top: 35px;
+    left: 50px;
+    font-weight: normal;
+}
+
+div.container {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    box-shadow: 0 0 10px white;
+    position: relative;
+    top: 90px;
+    left: 5rem;
+}
+
+div.container img {
+    width: 450px;
+    height: 450px;
+
+}
+
+.wrapper {
+    padding: 10px;
+    width: 40rem;
+    background-color: rgb(40, 39, 39);
+    height: 450px;
+}
+
+.wrapper h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: yellow;
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+
+span {
+    color: red;
+}
+
+
+.wrapper p {
+    position: relative;
+    top: 10px;
+    color: white;
+}
+
+.form-container {
+    line-height: 30px;
+    height: 23rem;
+    position: relative;
+    top: 0px;
+
+}
+
+input {
+    padding: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 5px;
+    position: relative;
+    width: 14rem;
+    text-transform: capitalize;
+}
+
+
+label {
+    color: white;
+}
+
+.personal-info {
+    position: relative;
+    left: 40px;
+    top: 28px;
+}
+
+.personal-info input {
+    display: block;
+
+}
+
+.account {
+    position: relative;
+    left: 340px;
+    top: -200px;
+}
+
+.account input {
+    display: block;
+    position: relative;
+
+}
+
+.for-btn {
+    position: relative;
+    top: -180px;
+    left: 40px;
+}
+
+.for-btn input {
+    background-color: green;
+    padding: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    width: 10rem;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.for-btn input:hover {
+    color: red;
+    background-color: black;
+}
